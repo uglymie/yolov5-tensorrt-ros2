@@ -80,6 +80,17 @@ python detect.py --weights yolov5s.onnx --dnn
 ## 提示
  该项目暂时不包括目标跟踪和测距的功能，相关参数为预留
 
+# 编译运行
+ 将功能包下载到自己的ROS2工作空间，然后编译：
+ ```
+ colcon build
+ ```
+ 使用以下命令运行：
+ ```
+ ros2 launch yolov5_tensorrt yolov5_tensorrt_launch.py
+ ```
+
+
 # 展示效果
 
 ## 发布检测结果图像
