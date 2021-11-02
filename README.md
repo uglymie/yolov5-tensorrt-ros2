@@ -78,7 +78,10 @@ python detect.py --weights yolov5s.onnx --dnn
 如果是自己训练的模型，只需要按照格式修改这个文件即可
 
 ## 提示
- 该项目暂时不包括目标跟踪和测距的功能，相关参数为预留
+ - 该项目暂时不包括目标跟踪和测距的功能，相关参数为预留
+ - 以下为转换好了的engine文件，下载后放至yolov5_tensorrt/weights目录
+
+ 链接: https://pan.baidu.com/s/1tgnOVQtG-jl-2CIf9E2-uA  密码: 72oe
 
 # 编译运行
  将功能包下载到自己的ROS2工作空间，然后编译：
