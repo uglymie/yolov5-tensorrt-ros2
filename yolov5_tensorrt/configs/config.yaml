@@ -1,0 +1,14 @@
+/yolov5_tensorrt:
+  ros__parameters:
+    image_sub_topic_name: /camera/image_raw
+    
+    device: 0   # GPU ID
+    nms: 0.45
+    conf: 0.50
+    batch_size: 1
+    input_h: 640
+    input_w: 640
+    class_num: 80
+    # engine_dir: 
+    
+    use_sim_time: false
