@@ -85,17 +85,18 @@ python detect.py --weights yolov5s.onnx --dnn
 
 # 编译运行
  - 相关版本
+ ```
    ROS2-foxy
    OpenCV4
    TensorRT8.0.1.6
-   
+  ```
  - 将功能包下载到自己的ROS2工作空间，然后编译：
  ```
- colcon build
+   colcon build
  ```
  - 使用以下命令运行：
  ```
- ros2 launch yolov5_tensorrt yolov5_tensorrt_launch.py
+   ros2 launch yolov5_tensorrt yolov5_tensorrt_launch.py
  ```
 
 
