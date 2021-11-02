@@ -84,11 +84,16 @@ python detect.py --weights yolov5s.onnx --dnn
  链接: https://pan.baidu.com/s/1tgnOVQtG-jl-2CIf9E2-uA  密码: 72oe
 
 # 编译运行
- 将功能包下载到自己的ROS2工作空间，然后编译：
+ - 相关版本
+   ROS2-foxy
+   OpenCV4
+   TensorRT8.0.1.6
+   
+ - 将功能包下载到自己的ROS2工作空间，然后编译：
  ```
  colcon build
  ```
- 使用以下命令运行：
+ - 使用以下命令运行：
  ```
  ros2 launch yolov5_tensorrt yolov5_tensorrt_launch.py
  ```
